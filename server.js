@@ -1,9 +1,9 @@
 // DEPENDENCIES
 // nosql module 06
 const express = require("express");
-const mongojs = require("mongojs");
-const { Mongoose } = require("mongoose");
-const
+const mongo = require("mongojs");
+const mongoose= require("mongoose");
+
 
 // SETS UP THE EXPRESS APP
 const app = express();
@@ -24,7 +24,7 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workoutDB", {
 
 // ROUTES
 app.use(require('./routes/apiRoutes.js'));
-app.use(require('./routes/htmlRoutes.js'));
+// app.use(require('./routes/htmlRoutes.js'));
 
 // STARTS THE SERVER TO BEGIN LISTENING
 app.listen(PORT, function() {
