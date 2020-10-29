@@ -18,7 +18,7 @@ app.use(express.static("public"));
 
 // MONGOOSE [nosql module 26]
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workoutDB", {
-    useNewurlParser: true,
+    useNewUrlParser: true,
     useFindAndModify: false
 });
 
