@@ -5,7 +5,7 @@
 ## Description
 A consumer will reach their fitness goals more quickly when they track their workout progress.
 
-![Image of Workout Tracker]("../)
+![Image of Workout Tracker](https://github.com/akeneson/workout-tracker/blob/main/public/img/Screen%20Shot%202020-10-29%20at%208.01.25%20PM.png?raw=true)
 
 ## Table of Contents
 
