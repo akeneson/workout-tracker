@@ -39,9 +39,9 @@ npm test
 
 ## Features
 
-\*Add cardio exercises
-\*Add resistance exercises
-\*See statistics of your workout progress
+* Add cardio exercises
+* Add resistance exercises
+* See statistics of your workout progress
 
 ## Links
 
