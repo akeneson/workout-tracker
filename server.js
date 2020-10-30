@@ -17,10 +17,20 @@ app.use(express.json());
 app.use(express.static("public"));
 
 // MONGOOSE [nosql module 26]
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workoutDB", {
-    useNewUrlParser: true,
-    useFindAndModify: false
-});
+// mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workoutDB", {
+//     useNewUrlParser: true,
+//     useFindAndModify: false
+// });
+
+mongoose.connect(
+    process.env.MONGODB_URI || 'mongodb://localhost/workoutDB',
+    {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+      useCreateIndex: true,
+      useFindAndModify: false
+    }
+  );
 
 // ROUTES
 app.use(require('./routes/apiRoutes.js'));
