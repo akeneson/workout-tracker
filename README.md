@@ -14,6 +14,8 @@ A consumer will reach their fitness goals more quickly when they track their wor
 * [License](#license)
 * [Contributing](#contributing)
 * [Test](#test)
+* [Features](#features)
+* [Links](#links)
 * [Questions](#questions)
 
 ## Installation
@@ -35,7 +37,6 @@ No contributions are needed at this time but thank you for your ongoing support!
 ```
 npm test
 ```
-
 
 ## Features
 
